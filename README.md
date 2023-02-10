@@ -1,6 +1,6 @@
-#Practice-with-API
+<h1 align="center">Hi there, I'm <a href="https://vk.com/bogdan24104" target="_blank">Bogdan</a>
 <p align="center">
   <img width="460" height="300" src="https://github.com/BogdanGryaznov/Practice-with-API/blob/main/maxwell-the-cat-maxwell.gif">
 </p>
-#Welcome, I'm [Bogdan](https://vk.com/bogdan24104)
-###Computer science student, IT news writer from Russia 🇷🇺
+# Welcome, I'm [Bogdan](https://vk.com/bogdan24104)
+### Computer science student, IT news writer from Russia 🇷🇺
