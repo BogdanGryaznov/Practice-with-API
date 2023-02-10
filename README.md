@@ -5,7 +5,7 @@
   </p>
 <p> Computer science student</p></a>
 </div>
-<div>
-<div/>
 
-## First task
+## Tasks
+  ### - [First](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/First_task)<br> ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif)
+  ### - [Second](https://vk.com/bogdan24104)
