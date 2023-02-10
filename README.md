@@ -7,5 +7,5 @@
 </div>
 
 ## Tasks
-  ### - [First](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/First_task)<br> ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif)
+  ### - [First](https://github.com/BogdanGryaznov/Practice-with-API/blob/main/First_task/First_task/Controllers/WeatherForecastController.cs)<br> ![image](https://user-images.githubusercontent.com/124984105/218038937-f8184315-5065-47fa-af30-6eaece8fedac.png)
   ### - [Second](https://vk.com/bogdan24104)
