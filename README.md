@@ -2,5 +2,4 @@
 <p align="center">
   <img width="460" height="300" src="https://github.com/BogdanGryaznov/Practice-with-API/blob/main/maxwell-the-cat-maxwell.gif">
 </p>
-# Welcome, I'm [Bogdan](https://vk.com/bogdan24104)
-### Computer science student, IT news writer from Russia 🇷🇺
+ <h1 Computer science student></a>
