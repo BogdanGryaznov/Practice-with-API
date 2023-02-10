@@ -4,7 +4,6 @@
     <img width="460" height="300" src="https://github.com/BogdanGryaznov/Practice-with-API/blob/main/maxwell-the-cat-maxwell.gif">
   </p>
   </div>
-  <div>
-<p Computer science student></a>
-</div>
+ <p Computer science student></a>
+
 
