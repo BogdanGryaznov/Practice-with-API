@@ -2,4 +2,4 @@
 <p align="center">
   <img width="460" height="300" src="https://github.com/BogdanGryaznov/Practice-with-API/blob/main/maxwell-the-cat-maxwell.gif">
 </p>
- <h1 Computer science student></a>
+ <p Computer science student></a>
