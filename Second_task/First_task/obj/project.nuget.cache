@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9S5j63zkT0QJzAPOM+571bUH1x+G8Ly8omAr8n1/0jBR4APDtkEawHbxCn/nkwbfY6+dG/Ywhe9tl8JIOLd77g==",
+  "dgSpecHash": "64+pOZhdvTfCeNmbs9QB7d7B1PgiYC7M1C5mLJh0rPGxpAx8xZ7FFXVrLHCq74I3+heSLRMy+TTn2E7nEVPvzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Gryaznov\\First_task\\First_task\\First_task.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\practika\\Practice-with-API\\Second_task\\First_task\\First_task.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
