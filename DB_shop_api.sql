@@ -1,162 +1,199 @@
-use master
-DROP DATABASE IF EXISTS shop_api_db
-
-create database shop_api_db
-go 
-use shop_api_db
-go
-create table Roles(
-role_id int not null,
-role_name nvarchar(50) not null,
-is_deleted bit not null
-)
-
-
-
-
-create table Users(
-id_user int not null,
-email nvarchar(50) not null,
-password nvarchar(50) not null,
-role_id int not null,
-is_deleted bit not null
-)
-
-
-
-
-
-create table Carts(
-id_user int not null,
-item_id int not null,
-quantity int not null,
-is_deleted bit not null
-)
-
-
-
-
-create table Orders(
-id_user int not null,
-order_id int not null,
-delivery_type nvarchar(20) not null,
-status nvarchar(20) not null,
-is_deleted bit not null
-)
-
-
-
-create table Orders_item(
-order_id int not null,
-item_id int not null,
-quantity int not null,
-is_deleted bit not null
-)
-
-
-
-create table Products(
-item_id int not null,
-item_name nvarchar(50) not null,
-item_description nvarchar(100),
-warehouse_quantity int not null,
-price int,
-category_id int,
-is_deleted bit not null,
-)
-
-
-
-
-create table Categories(
-category_id int not null,
-category_name nvarchar(50) not null,
-is_deleted bit not null
-)
-
-
-
-create table Specs(
-spec_id int not null,
-category_id int not null,
-spec_name nvarchar(50) not null,
-is_deleted bit not null
-)
-
-
-
-create table Specs_item(
-item_id int not null,
-spec_id int not null,
-spec_value nvarchar(50),
-is_deleted bit not null
-)
-
-
-
-
-
-
-
-
-alter table Roles
-ADD CONSTRAINT PK_Roles PRIMARY KEY (role_id);
-
-alter table Users
-ADD CONSTRAINT PK_Users PRIMARY KEY (id_user);
-
-alter table Carts
-ADD CONSTRAINT PK_Carts PRIMARY KEY (id_user, item_id);
-go
-
-alter table Specs_item
-ADD CONSTRAINT PK_Specs_item PRIMARY KEY (spec_id, item_id);
-go
-
-alter table Orders
-ADD CONSTRAINT PK_Orders PRIMARY KEY (order_id, id_user);
-go
-
-alter table Orders_item
-ADD CONSTRAINT PK_Orders_item PRIMARY KEY (item_id, order_id);
-go
-
-alter table Products
-ADD CONSTRAINT PK_Products PRIMARY KEY (item_id);
-go
-
-alter table Categories
-ADD CONSTRAINT PK_Categories PRIMARY KEY (category_id);
-go
-
-alter table Specs
-ADD CONSTRAINT PK_Specs PRIMARY KEY (spec_id, category_id);
-go
-
-
-
-
-
-alter table Carts
-ADD CONSTRAINT FK_UserCarts FOREIGN KEY (id_user) REFERENCES Users(id_user);
-go
-alter table Carts
-ADD CONSTRAINT FK_ItemsCarts FOREIGN KEY (item_id) REFERENCES Products(item_id);
-
-alter table Orders
-ADD CONSTRAINT FK_UsersOrders FOREIGN KEY (id_user) REFERENCES Users(id_user);
-
-alter table Orders_item
-ADD CONSTRAINT FK_ItemsOrders_item FOREIGN KEY (item_id) REFERENCES Products(item_id);
-go
-alter table Orders_item
-ADD CONSTRAINT FK_OrdersOrders_item FOREIGN KEY (order_id) REFERENCES Orders(order_id);
-
-alter table Specs
-ADD CONSTRAINT FK_CategorySpecs FOREIGN KEY (category_id) REFERENCES Category(category_id);
-
-alter table Specs_item
-ADD CONSTRAINT FK_SpecsSpecs_item FOREIGN KEY (spec_id) REFERENCES Specs(spec_id);
-go
-alter table Specs_item
-ADD CONSTRAINT FK_ItemsSpecs_item FOREIGN KEY (item_id) REFERENCES Products(item_id);
+USE [API-SHOP-2]
+GO
+/****** Object:  Table [dbo].[Carts]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Carts](
+	[carts_id] [int] NOT NULL,
+	[id_user] [int] NOT NULL,
+	[item_id] [int] NOT NULL,
+	[quantity] [int] NOT NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Carts] PRIMARY KEY CLUSTERED 
+(
+	[carts_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Categories]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Categories](
+	[category_id] [int] NOT NULL,
+	[category_name] [nvarchar](50) NOT NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Categories] PRIMARY KEY CLUSTERED 
+(
+	[category_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Orders]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Orders](
+	[id_user] [int] NOT NULL,
+	[order_id] [int] NOT NULL,
+	[delivery_id] [int] NOT NULL,
+	[status_id] [int] NOT NULL,
+	[date] [date] NOT NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Orders] PRIMARY KEY CLUSTERED 
+(
+	[order_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Orders_item]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Orders_item](
+	[order_item_id] [int] NOT NULL,
+	[order_id] [int] NOT NULL,
+	[item_id] [int] NOT NULL,
+	[quantity] [int] NOT NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Orders_item] PRIMARY KEY CLUSTERED 
+(
+	[order_item_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Products]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Products](
+	[item_id] [int] NOT NULL,
+	[item_name] [nvarchar](50) NOT NULL,
+	[item_description] [nvarchar](100) NULL,
+	[warehouse_quantity] [int] NOT NULL,
+	[price] [int] NULL,
+	[category_id] [int] NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Products] PRIMARY KEY CLUSTERED 
+(
+	[item_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Roles]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Roles](
+	[role_id] [int] NOT NULL,
+	[role_name] [nvarchar](50) NOT NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Roles] PRIMARY KEY CLUSTERED 
+(
+	[role_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Specs]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Specs](
+	[spec_id] [int] NOT NULL,
+	[category_id] [int] NOT NULL,
+	[spec_name] [nvarchar](50) NOT NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Specs] PRIMARY KEY CLUSTERED 
+(
+	[spec_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Specs_item]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Specs_item](
+	[spec_item_id] [int] NOT NULL,
+	[item_id] [int] NOT NULL,
+	[spec_id] [int] NOT NULL,
+	[spec_value] [nvarchar](50) NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Specs_item] PRIMARY KEY CLUSTERED 
+(
+	[spec_item_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Users]    Script Date: 03.03.2023 11:15:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Users](
+	[id_user] [int] NOT NULL,
+	[login] [nvarchar](50) NOT NULL,
+	[password] [nvarchar](50) NOT NULL,
+	[role_id] [int] NOT NULL,
+	[address] [nvarchar](50) NOT NULL,
+	[is_deleted] [bit] NOT NULL,
+ CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED 
+(
+	[id_user] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Carts]  WITH CHECK ADD  CONSTRAINT [FK_ItemsCarts] FOREIGN KEY([item_id])
+REFERENCES [dbo].[Products] ([item_id])
+GO
+ALTER TABLE [dbo].[Carts] CHECK CONSTRAINT [FK_ItemsCarts]
+GO
+ALTER TABLE [dbo].[Carts]  WITH CHECK ADD  CONSTRAINT [FK_UserCarts] FOREIGN KEY([id_user])
+REFERENCES [dbo].[Users] ([id_user])
+GO
+ALTER TABLE [dbo].[Carts] CHECK CONSTRAINT [FK_UserCarts]
+GO
+ALTER TABLE [dbo].[Orders]  WITH CHECK ADD  CONSTRAINT [FK_UsersOrders] FOREIGN KEY([id_user])
+REFERENCES [dbo].[Users] ([id_user])
+GO
+ALTER TABLE [dbo].[Orders] CHECK CONSTRAINT [FK_UsersOrders]
+GO
+ALTER TABLE [dbo].[Orders_item]  WITH CHECK ADD  CONSTRAINT [FK_ItemsOrders_item] FOREIGN KEY([item_id])
+REFERENCES [dbo].[Products] ([item_id])
+GO
+ALTER TABLE [dbo].[Orders_item] CHECK CONSTRAINT [FK_ItemsOrders_item]
+GO
+ALTER TABLE [dbo].[Products]  WITH CHECK ADD  CONSTRAINT [FK_Products_Categories] FOREIGN KEY([category_id])
+REFERENCES [dbo].[Categories] ([category_id])
+GO
+ALTER TABLE [dbo].[Products] CHECK CONSTRAINT [FK_Products_Categories]
+GO
+ALTER TABLE [dbo].[Specs]  WITH CHECK ADD  CONSTRAINT [FK_Specs_Categories] FOREIGN KEY([category_id])
+REFERENCES [dbo].[Categories] ([category_id])
+GO
+ALTER TABLE [dbo].[Specs] CHECK CONSTRAINT [FK_Specs_Categories]
+GO
+ALTER TABLE [dbo].[Specs_item]  WITH CHECK ADD  CONSTRAINT [FK_ItemsSpecs_item] FOREIGN KEY([item_id])
+REFERENCES [dbo].[Products] ([item_id])
+GO
+ALTER TABLE [dbo].[Specs_item] CHECK CONSTRAINT [FK_ItemsSpecs_item]
+GO
+ALTER TABLE [dbo].[Specs_item]  WITH CHECK ADD  CONSTRAINT [FK_SpecsSpecs_item] FOREIGN KEY([spec_id])
+REFERENCES [dbo].[Specs] ([spec_id])
+GO
+ALTER TABLE [dbo].[Specs_item] CHECK CONSTRAINT [FK_SpecsSpecs_item]
+GO
+ALTER TABLE [dbo].[Users]  WITH CHECK ADD  CONSTRAINT [FK_Users_Roles] FOREIGN KEY([role_id])
+REFERENCES [dbo].[Roles] ([role_id])
+GO
+ALTER TABLE [dbo].[Users] CHECK CONSTRAINT [FK_Users_Roles]
+GO
