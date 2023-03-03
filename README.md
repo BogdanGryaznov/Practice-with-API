@@ -15,5 +15,7 @@
   ### - [First task](https://github.com/BogdanGryaznov/Practice-with-API/blob/main/DB_shop_api.sql) Проектирование БД для API интернет-магазина <br> 
   #### Проектирование и создание БД
   ![image](https://user-images.githubusercontent.com/124984105/219591135-2d5dc1f3-de73-4b7a-842c-0fcd3f7aae80.png)
-
-      
+# Third Day
+  ### - [Третья практическая работа (TO DO LIST)](https://github.com/users/BogdanGryaznov/projects/1/views/1)
+  ![image](https://user-images.githubusercontent.com/124984105/222654338-d1f4a0d7-a97c-412b-b238-638f5f19f8af.png)
+  ### - [5 работа](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/Third_task)
