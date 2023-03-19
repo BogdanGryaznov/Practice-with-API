@@ -19,3 +19,9 @@
   ### - [Третья практическая работа (TO DO LIST)](https://github.com/users/BogdanGryaznov/projects/1/views/1)
   ![image](https://user-images.githubusercontent.com/124984105/222654338-d1f4a0d7-a97c-412b-b238-638f5f19f8af.png)
   ### - [5 работа](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/Third_task)
+  Миграция модели базы данных
+  
+  ![image](https://user-images.githubusercontent.com/124984105/226191829-f4363b8a-fe8c-4bdc-9f71-1fb64f50a23e.png)
+  
+  Создание контроллеров и интерфейсов для взаимодействия с базой данных
+  ![image](https://user-images.githubusercontent.com/124984105/226191910-b69c4059-1a28-4c62-a0ce-91cba2663590.png)
