@@ -1,0 +1,15 @@
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\bin\Debug\net6.0\DataAccess.dll
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\bin\Debug\net6.0\DataAccess.pdb
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\PROFILE FOLDERS\Documents\CODE_LABS\Third_task_new\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
