@@ -18,7 +18,7 @@
 # Third Day
   ### - [Третья практическая работа (TO DO LIST)](https://github.com/users/BogdanGryaznov/projects/1/views/1)
   ![image](https://user-images.githubusercontent.com/124984105/222654338-d1f4a0d7-a97c-412b-b238-638f5f19f8af.png)
-  ### - [5 работа](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/Third_task)
+  ### - [5 работа](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/Third_task_new)
   Миграция модели базы данных
   
   ![image](https://user-images.githubusercontent.com/124984105/226191829-f4363b8a-fe8c-4bdc-9f71-1fb64f50a23e.png)
