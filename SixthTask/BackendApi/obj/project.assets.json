@@ -2250,11 +2250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\BackendApi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\BackendApi.csproj",
       "projectName": "BackendApi",
-      "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\BackendApi.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\BackendApi.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2275,11 +2275,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj"
             },
-            "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj"
             }
           }
         }

@@ -12,7 +12,7 @@ namespace Domain.Repositories
     public class UserRepository : RepositoryBase<User>, IUserRepository
     {
         public UserRepository(ApiShop2Context repositoryContext)
-            : base(repositoryContext) 
+        : base(repositoryContext)
         {
         }
     }

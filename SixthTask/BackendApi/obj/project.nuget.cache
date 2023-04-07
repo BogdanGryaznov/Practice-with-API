@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gw0UMt+vyxEhPHBAg3O9do3yraU57BzXlbrFGg4h5ph0Ms4n87IqKQfuyGPfLQ2XiugBCVpTPmIzb0a+5m9hBA==",
+  "dgSpecHash": "6b3T+Q/nZBbkV8e/ruOBO66WwbYJORvIv5o2L90m5cTekFqPLK6wFWETIOBQp8xYFTQLHPwI+qzv0Mz2+DIDzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\BackendApi.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\BackendApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

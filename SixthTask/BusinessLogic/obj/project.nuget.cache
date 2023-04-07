@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dpOfzUIOoCjMbKiEyz6n0Yjy0HPRKDhFq2oDwx5aKHfWSEBegXKJfr+Ml8lG79mx22S0NQkaToNVuynUoc0oXg==",
+  "dgSpecHash": "qhRMKPUc/TLLbfGJ0PHW/omD6Iwc3nHpPQzRcs2VFh84PGfV2TQ5JznOWRt0rLtDTKKPzbtlBAd/m7fymhqWCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SNTPt/1zhafYMfbBL1/nZzrjyfdTkDV9z89QLxrG9Du4QThoTW7+ArPLBE2qRaGSJcKjz+hxIJOMu6ad7RqE1w==",
+  "dgSpecHash": "LmAjVVBY1Mp1/PUXK+Gwc2M9ACO9hVHbB5ouIlTY0RlVJ5hEFCqNBZT3uXxHVeMpMI0hBLKVhbrs5xS5D06yRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

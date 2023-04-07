@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\BackendApi.csproj": {}
+    "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\BackendApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\BackendApi.csproj": {
+    "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\BackendApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\BackendApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\BackendApi.csproj",
         "projectName": "BackendApi",
-        "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\BackendApi.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\BackendApi.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\SixthTask\\BackendApi\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BackendApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\SixthTask\\BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\Domain.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\SixthTask\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,8 +176,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\Domain.csproj"
               }
             }
           }
@@ -223,14 +223,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\SixthTask\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ПАПКА РЕПОЗИТОРИЯ\\Practice-with-API\\SixthTask\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
