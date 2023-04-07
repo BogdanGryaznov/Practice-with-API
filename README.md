@@ -35,3 +35,7 @@
  
  API-SHOP-1 - копия полученная через миграцию
  
+ # Седьмая практическая работа
+ ### - [Dotnet-CLI](https://github.com/BogdanGryaznov/Practice-with-API/blob/main/Seventh_work/CMDLog.txt)
+ ![image](https://user-images.githubusercontent.com/124984105/230577316-b5ce9e7f-49d9-48bc-9d40-53ca8dd835c9.png)
+
