@@ -25,3 +25,13 @@
   
   Создание контроллеров и интерфейсов для взаимодействия с базой данных
   ![image](https://user-images.githubusercontent.com/124984105/226191910-b69c4059-1a28-4c62-a0ce-91cba2663590.png)
+
+ # Шестая практическая работа 
+ ### - [Работа с Миграциями в EF Core](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/SixthTask/Domain/Migrations)
+ ![image](https://user-images.githubusercontent.com/124984105/230569577-0824de6f-bece-49ca-91e2-7a1629c0860c.png)
+ ![image](https://user-images.githubusercontent.com/124984105/230569804-6e815706-6f97-4498-b011-cf3b6acec2f5.png)
+ 
+ API-SHOP-2 - оригинал
+ 
+ API-SHOP-1 - копия полученная через миграцию
+ 
