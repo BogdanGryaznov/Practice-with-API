@@ -1,3 +1,6 @@
+DROP DATABASE IF EXISTS [API-SHOP-2]
+CREATE DATABASE [API-SHOP-2]
+
 USE [API-SHOP-2]
 GO
 /****** Object:  Table [dbo].[Carts]    Script Date: 03.03.2023 11:15:19 ******/
