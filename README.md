@@ -38,4 +38,20 @@
  # Седьмая практическая работа
  ### - [Dotnet-CLI](https://github.com/BogdanGryaznov/Practice-with-API/blob/main/Seventh_work/CMDLog.txt)
  ![image](https://user-images.githubusercontent.com/124984105/230577316-b5ce9e7f-49d9-48bc-9d40-53ca8dd835c9.png)
+ 
+ # [Восьмая практическая работа - Документирование API.](https://github.com/BogdanGryaznov/Practice-with-API/blob/main/SixthTask/BackendApi/Program.cs)
+ ### - Добавление информации об API и авторах
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/a415bf71-2a5d-47bd-b50b-f8146bb374e3)
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/91e0e5b7-3be4-45fa-be68-8565be784141)
+ 
+ ### - Добавление описания методов, комментариев и починка параметров в примерах запросах
+ Создание комментариев и описания методов
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/c0c874a8-89c0-42c4-90b5-ee591b871de1)
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/83d5fcda-b2f4-468f-a197-a2306d7d0300)
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/dcfe90d7-1133-4552-ada4-6201351b328c)
+ 
+ Исправления параметров
+ 
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/a49ec67a-3dcb-4c20-bd69-586a3e3fbd39)
+
 
