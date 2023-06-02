@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackendApi</name>
+    </assembly>
+    <members>
+        <member name="M:BackendApi.Controllers.UserController.GetAll">
+            <summary>
+            Запрос всей информации о пользователях
+            </summary>
+            <remarks>
+            Пример запроса:
+            
+                GET
+                
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Запрос информации о пользователе по определённому ID
+            </summary>
+            <remarks>
+            
+            Пример запроса:
+            
+                GET
+                {
+                    "id" : "12"
+                }
+            
+            </remarks>
+            <param name="id">ID Пользователя</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Add(BackendApi.Contracts.User.CreateUserRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <remarks>
+            Пример запроса:
+            
+                POST /Todo
+                {
+                    "idUser" : "12",
+                    "login" : "ksas",
+                    "password" : "ovr9999",
+                    "roleId" : "0",
+                    "address" : "none",
+                    "isDeleted" : "false"
+                }
+            
+            </remarks>
+            <param name="request">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Update(BackendApi.Contracts.User.CreateUserRequest)">
+            <summary>
+            Изменение информации об определённом пользоваетеле
+            </summary>
+            <remarks>
+            Пример запроса:
+            
+                PUT /TODO
+                {
+                    "idUser" : "12",
+                    "login" : "ksas",
+                    "password" : "ovr9999",
+                    "roleId" : "0",
+                    "address" : "none",
+                    "isDeleted" : "false"
+                }
+            
+            </remarks>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаление пользователя по его id 
+            </summary>
+            <remarks>
+            Пример запроса:
+            
+                DELETE 
+                {
+                    "id" : "12"
+                }
+            
+            </remarks>
+            <param name="id"> ID Пользователя</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
