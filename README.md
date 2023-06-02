@@ -55,7 +55,7 @@
  ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/a49ec67a-3dcb-4c20-bd69-586a3e3fbd39)
 
  # Девятая практическая работа
- ### Создание тест-кейсов для тестирования ПО
+ ### [Создание тест-кейсов для тестирования ПО](https://github.com/BogdanGryaznov/Practice-with-API/blob/main/NinethTask/BusinessLogic.Tests/UserServiceTest.cs)
 ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/ae9d0368-a910-40bf-a6f1-8a11cc744603)
  
 
