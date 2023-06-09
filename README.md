@@ -57,7 +57,7 @@
  # [Девятая практическая работа -Создание тест-кейсов для тестирования ПО](https://github.com/BogdanGryaznov/Practice-with-API/blob/main/NinethTask/BusinessLogic.Tests/UserServiceTest.cs)
 ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/ae9d0368-a910-40bf-a6f1-8a11cc744603)
  
- # [Десятая практическая работа - Создание API бота Telegram](https://loremipsum.com/)
+ # [Десятая практическая работа - Создание API бота Telegram](https://github.com/BogdanGryaznov/Practice-with-API/tree/main/Telegram_Bot/BotClient)
  
  ### Создание бота в телеграм
  ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/5aad8931-54b9-4077-8d9c-5aa48ed1f4e3)
@@ -69,4 +69,7 @@
  ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/48cac065-8b1f-4337-aa3d-aea03315909a)
  ### Настройка HTTP 
  ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/393a62d4-047a-4937-b58b-ef4c9ebff93c)
+ ### Создание дополнительных функций
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/db534183-e42c-4c00-9c77-6fd254fd82f9)
+ ![image](https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/bcbee3de-8749-4b32-a098-b1f30c5e22d8)
 
