@@ -60,10 +60,10 @@ namespace BotClient
             }
             if (message.Text.ToLower() == "видео")
             {
-                await using Stream stream = System.IO.File.OpenRead("C:/Users/user/Downloads/internet_yamero.mp4");
                 await botClient.SendVideoAsync(
                     chatId: chatId,
-                    video: InputFile.FromStream(stream),
+                    video: InputFile.FromUri("https://video.twimg.com/ext_tw_video/1533667150560432128/pu/vid/540x540/16aNbjEFbuoq4BM5.mp4?tag=12"),
+                    thumbnail: InputFile.FromUri("https://github.com/BogdanGryaznov/Practice-with-API/assets/124984105/ea96bd84-0fee-4f6c-b2a9-bae0e4753504"),
                     cancellationToken: cancellationToken
                     );
             };
@@ -74,7 +74,7 @@ namespace BotClient
             var ErrorMessage = exception switch
             {
                 ApiRequestException apiRequestException
-                    => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}" + exception.ToString()
+                    => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}\n\n" + exception.ToString()
             };
 
             Console.WriteLine(ErrorMessage);
